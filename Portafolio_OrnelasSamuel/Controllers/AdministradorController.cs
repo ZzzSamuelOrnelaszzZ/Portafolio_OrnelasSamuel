@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Portafolio_OrnelasSamuel.Controllers
 {
-    public class adminController : Controller
+    public class AdministradorController : Controller
     {
-        // GET: admin
+        // GET: Administrador
         public ActionResult Index()
         {
             return View();
