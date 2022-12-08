@@ -171,6 +171,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Admin.cs" />
+    <Compile Include="Controllers\adminController.cs" />
     <Compile Include="Controllers\AspNetUsersController.cs" />
     <Compile Include="Controllers\ExperienciaController.cs" />
     <Compile Include="Controllers\HabilidadController.cs" />
@@ -314,7 +316,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\main.js" />
-    <Content Include="Content\Style.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="forms\Readme.txt" />
@@ -441,6 +443,7 @@
     <Content Include="Views\AspNetUsers\Details.cshtml" />
     <Content Include="Views\AspNetUsers\Edit.cshtml" />
     <Content Include="Views\AspNetUsers\Index.cshtml" />
+    <Content Include="Views\admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
